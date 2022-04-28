@@ -8,6 +8,5 @@ Rails.application.routes.draw do
   #root "facilities#index"
 
   root 'pages#home'
-  get '/tailwindtut', to: 'pages#tailwindtut'
   
 end
