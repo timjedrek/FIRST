@@ -1,0 +1,12 @@
+class CreateFacilities < ActiveRecord::Migration[7.0]
+  def change
+    create_table :facilities do |t|
+      t.string :name
+      t.text :address
+      t.integer :score
+      t.date :date_of_inspection
+
+      t.timestamps
+    end
+  end
+end
